@@ -1,0 +1,19 @@
+{
+  "name": "seattle-boundaries",
+  "description": "geojson boundaries for seattle",
+  "version": "1.0.0",
+  "repository": {
+    "url": "git://github.com/sethvincent/seattle-boundaries.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "get-neighborhoods": "./bin/get-neighborhoods.js",
+    "get-data": "npm run get-neighborhoods",
+    "start": ""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "each-async": "^1.1.1",
+    "localwiki-client": "^0.4.2"
+  }
+}
