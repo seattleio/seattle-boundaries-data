@@ -4,14 +4,14 @@
 
 ## Boundaries:
 
-- neighborhoods (source: seattlewiki & seattle city clerks office)
+- neighborhoods
 - city council districts
+- census tracts
 
 ### TODO:
 
 #### datasets:
 
-- census tracts
 - city limits
 - zip code
 - congressional/house/senate districts
