@@ -7,12 +7,14 @@
   },
   "main": "index.js",
   "scripts": {
+    "get-city-limits": "./bin/get-city-limits.js",
     "get-neighborhoods": "./bin/get-neighborhoods.js",
-    "get-data": "npm run get-neighborhoods",
+    "get-data": "npm run get-neighborhoods && npm run get-city-limits",
     "start": ""
   },
   "dependencies": {},
   "devDependencies": {
+    "node-socrata": "~0.0.4",
     "each-async": "^1.1.1",
     "localwiki-client": "^0.4.2"
   }
