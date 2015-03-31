@@ -7,12 +7,11 @@
 - neighborhoods
 - city council districts
 - census tracts
+- city limits
 
 ### TODO:
 
 #### datasets:
-
-- city limits
 - zip code
 - congressional/house/senate districts
 - school districts
