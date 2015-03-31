@@ -20,7 +20,7 @@
 #### features:
 
 - simple api server
-- use wherewolf to find which boundaries a point is in
+  - provide endpoint for determining which boundaries a point is in
 
 
 ## Notes
