@@ -11,18 +11,7 @@
 
 ### TODO:
 
-#### datasets:
-- zip code
-- congressional/house/senate districts
-- school districts
-- police beats/precincts
+See the [issues queue](http://github.com/codeforseattle/seattle-boundaries/issues) for todos.
 
-#### features:
-
-- simple api server
-  - provide endpoint for determining which boundaries a point is in
-
-
-## Notes
-
-There are new SPD beats/precincts: http://spdblotter.seattle.gov/2015/01/27/spd-adds-supervisors-shifts-police-beats-as-part-of-reform-efforts/
+## License
+[CC0 1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
