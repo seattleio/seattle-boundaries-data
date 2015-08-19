@@ -11,7 +11,7 @@
 - [neighborhoods](/data/neighborhoods.geojson)
 - [seattle parks from open street map](/data/seattle-parks-osm.geojson)
 - [seattle parks points from data.seattle.gov](/data/seattle-parks-points.geojson)
-- [zip codes](/data/zipcodes.geojson)
+- [zip codes](/data/zip-codes.geojson)
 
 ### TODO:
 
