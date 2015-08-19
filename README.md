@@ -11,6 +11,10 @@
 - [neighborhoods](/data/neighborhoods.geojson)
 - [seattle parks from open street map](/data/seattle-parks-osm.geojson)
 - [seattle parks points from data.seattle.gov](/data/seattle-parks-points.geojson)
+- [seattle public schools attendance area map Elementary Schools](/data/sps_attendance_area_ES.geojson)
+- [seattle public schools attendance area map Middle Schools](/data/sps_attendance_area_MS.geojson)
+- [seattle public schools attendance area map High Schools](/data/sps_attendance_area_HS.geojson)
+- [seattle public schools Site Map](/data/sps_school_site_2015_2016.geojson)
 - [zip codes](/data/zip-codes.geojson)
 
 ### TODO:
