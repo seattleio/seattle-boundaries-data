@@ -4,10 +4,14 @@
 
 ## Boundaries:
 
-- neighborhoods
-- city council districts
-- census tracts
-- city limits
+- [census tracts](/data/census-tracts.geojson)
+- [city council districts](/data/city-council-districts.geojson)
+- [city council districts as topojson](/data/city-council-districts.topojson.json)
+- [city limits](/data/city-limits.geojson)
+- [neighborhoods](/data/neighborhoods.geojson)
+- [seattle parks from open street map](/data/seattle-parks-osm.geojson)
+- [seattle parks points from data.seattle.gov](/data/seattle-parks-points.geojson)
+- [zip codes](/data/zipcodes.geojson)
 
 ### TODO:
 
