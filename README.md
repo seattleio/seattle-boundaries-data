@@ -20,7 +20,7 @@
 
 ### TODO:
 
-See the [issues queue](http://github.com/codeforseattle/seattle-boundaries/issues) for todos.
+See the [issues queue](http://github.com/openseattle/seattle-boundaries/issues) for todos.
 
 ## License
 [CC0 1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
