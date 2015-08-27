@@ -22,8 +22,8 @@
 - Fork the repo
 - Create a branch for your changes
 - Submit pull request
-- When possible, we attemt to pull data from [City of Seattle](https://data.seattle.gov/) using Node.js but we are open to other solutions
-  as well
+- When possible, we attempt to pull data from [City of Seattle](https://data.seattle.gov/) using Node.js but we are open to other solutions
+  as well.
 
 ### TODO:
 
