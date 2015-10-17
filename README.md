@@ -40,15 +40,7 @@ var matches = boundaries(l-122.345002, 47.667044)
 
 ### `boundaries(long, lat)``
 
-Returns array of objects in this form:
-
-```
-[
-  'slug of matching dataset': {
-    // geojson feature from the dataset that matches point
-  }
-]
-```
+Returns a `FeatureCollection` where all the features are a match for the point. The slug of the dataset that the feature is from is stored in the properties of the feature with the key `dataset`.
 
 ## Contributing:
 - Fork the repo
