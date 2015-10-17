@@ -31,7 +31,7 @@ npm install --save seattle-boundaries
 ```
 var boundaries = require('seattle-boundaries')
 
-var matches = boundaries(long, lat)
+var matches = boundaries(l-122.345002, 47.667044)
 ```
 
 ## API
