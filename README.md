@@ -18,6 +18,30 @@
 - [Seattle public schools Site Map](/data/sps_school_site_2015_2016.geojson)
 - [zip codes](/data/zip-codes.geojson)
 
+## Install
+
+To install the node/js module:
+
+```
+npm install --save seattle-boundaries
+```
+
+## Usage
+
+```
+var boundaries = require('seattle-boundaries')
+
+var matches = boundaries(l-122.345002, 47.667044)
+```
+
+## API
+
+### `var boundaries = require('seattle-boundaries')`
+
+### `boundaries(long, lat)``
+
+Returns a `FeatureCollection` where all the features are a match for the point. The slug of the dataset that the feature is from is stored in the properties of the feature with the key `dataset`.
+
 ## Contributing:
 - Fork the repo
 - Create a branch for your changes

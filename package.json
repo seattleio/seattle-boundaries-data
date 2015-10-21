@@ -1,7 +1,7 @@
 {
   "name": "seattle-boundaries",
   "description": "geojson boundaries for seattle",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "repository": {
     "url": "git://github.com/sethvincent/seattle-boundaries.git"
   },
@@ -12,7 +12,11 @@
     "get-data": "npm run get-neighborhoods && npm run get-city-limits",
     "start": ""
   },
-  "dependencies": {},
+  "dependencies": {
+    "jsonfile": "^2.2.3",
+    "lodash.flatten": "^3.0.2",
+    "turf": "^2.0.2"
+  },
   "devDependencies": {
     "node-socrata": "~0.0.4",
     "each-async": "^1.1.1",
