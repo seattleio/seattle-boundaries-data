@@ -7,7 +7,7 @@ GeoJSON for various boundaries within Seattle
 - [US Census tracts](/data/census-tracts.geojson)
 - Seattle City Council districts
   - [GeoJSON](/data/city-council-districts.geojson)
-  - [TopoJSON](/data/city-council-districts.topojson.json)
+  - [TopoJSON](/data/city-council-districts.topojson)
 - [Neighborhoods](/data/neighborhoods.geojson)
 - [Seattle congressional districts](/data/seattle-congress.geojson)
 - Seattle parks
