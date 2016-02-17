@@ -16,6 +16,7 @@
   "dependencies": {
     "jsonfile": "^2.2.3",
     "lodash.flatten": "^3.0.2",
+    "shp2json": "^1.1.1",
     "turf": "^2.0.2"
   },
   "devDependencies": {
