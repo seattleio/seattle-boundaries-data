@@ -12,7 +12,10 @@ GeoJSON for various boundaries within Seattle
 - [Seattle congressional districts](/data/seattle-congress.geojson)
 - Seattle parks
   - [From open street map](/data/seattle-parks-osm.geojson)
-  - [From data.seattle.gov](/data/seattle-parks-points.geojson)
+- Seattle Police Department
+  - [Beats](/data/spd-beats.geojson)
+  - [Precincts](/data/spd-precints.geojson)
+  - [Micro Community Policing Plan Areas](/data/spd-mcpp-areas.geojson)
 - Seattle public schools 
   - [Public school locations](/data/sps_school_site_2015_2016.geojson)
   - Attendance area maps
@@ -20,6 +23,7 @@ GeoJSON for various boundaries within Seattle
     - [Middle schools](/data/sps_attendance_area_MS.geojson)
     - [High schools](/data/sps_attendance_area_HS.geojson)
 - [ZIP codes](/data/zip-codes.geojson)
+- [Zoning](/data/zoning.geojson)
 
 ## Install
 
