@@ -8,15 +8,11 @@
   "main": "index.js",
   "scripts": {
     "get-city-limits": "./bin/get-city-limits.js",
-    "get-neighborhoods": "./bin/get-neighborhoods.js",
-    "get-data": "npm run get-neighborhoods && npm run get-city-limits",
     "start": "",
     "test": "mocha test"
   },
   "dependencies": {
-    "jsonfile": "^2.2.3",
     "lodash.flatten": "^3.0.2",
-    "shp2json": "^1.1.1",
     "turf": "^2.0.2"
   },
   "devDependencies": {
@@ -24,9 +20,11 @@
     "each-async": "^1.1.1",
     "expect.js": "^0.3.1",
     "geojsonhint": "^1.1.0",
+    "jsonfile": "^2.2.3",
     "localwiki-client": "^0.4.2",
     "lodash": "^4.0.0",
     "mocha": "^2.3.4",
-    "node-socrata": "~0.0.4"
+    "node-socrata": "~0.0.4",
+    "shp2json": "^1.1.1"
   }
 }
