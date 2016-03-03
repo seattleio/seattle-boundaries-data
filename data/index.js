@@ -14,5 +14,6 @@ module.exports = {
   'zip-codes': jsonfile.readFileSync(__dirname + '/zip-codes.geojson'),
   'spd-beats': jsonfile.readFileSync(__dirname + '/spd-beats.geojson'),
   'spd-precincts': jsonfile.readFileSync(__dirname + '/spd-precincts.geojson'),
-  'spd-mcpp-areas': jsonfile.readFileSync(__dirname + '/spd-mcpp-areas.geojson')
+  'spd-mcpp-areas': jsonfile.readFileSync(__dirname + '/spd-mcpp-areas.geojson'),
+  'zoning': jsonfile.readFileSync(__dirname + '/zoning.geojson')
 }
