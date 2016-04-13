@@ -16,6 +16,7 @@ GeoJSON for various boundaries within Seattle
   - [Beats](/data/spd-beats.geojson)
   - [Precincts](/data/spd-precints.geojson)
   - [Micro Community Policing Plan Areas](/data/spd-mcpp-areas.geojson)
+- [Residential Urban Villages](/data/ruv.geojson)
 - Seattle public schools 
   - [Public school locations](/data/sps_school_site_2015_2016.geojson)
   - Attendance area maps
