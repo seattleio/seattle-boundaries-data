@@ -20,4 +20,9 @@ describe('seattle-boundaries', () => {
 
     expect(censusTract.properties.name).to.equal('Census Tract 46, King, WA')
   })
+
+  it('filters by dataset name', () => {
+    var filtered = boundaries(-122.345002, 47.667044, 'spd-beats')
+    expect(filtered.features.length).to.equal(1)
+  })
 })

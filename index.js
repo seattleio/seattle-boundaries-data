@@ -2,7 +2,11 @@ var turf = require('turf')
 var flatten = require('lodash.flatten')
 var data = require('./data')
 
-module.exports = function boundaries (long, lat) {
+module.exports = function boundaries (options) {
+  var dataset = options.dataset
+  var long = options.long
+  var lat = options.lat
+
   var point = turf.point([long, lat])
 
   var collection = {
@@ -12,6 +16,13 @@ module.exports = function boundaries (long, lat) {
 
   collection.features = flatten(Object.keys(data).map(function (key) {
     return data[key].features
+      .filter(function (boundary) {
+        if (dataset) {
+          if (key == dataset) return boundary
+        } else {
+          return boundary
+        }
+      })
       .filter(function (boundary) {
         return turf.inside(point, boundary)
       })

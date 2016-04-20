@@ -39,15 +39,11 @@ npm install --save seattle-boundaries
 ```
 var boundaries = require('seattle-boundaries')
 
-var matches = boundaries(-122.345002, 47.667044)
-```
-
-## API
-
-```
-var boundaries = require('seattle-boundaries')
-...
-boundaries(long, lat)
+var matches = boundaries({
+  long: -122.345002,
+  lat: 47.667044,
+  dataset: dataset
+})
 ```
 
 Returns a `FeatureCollection` where all the features are a match for the point. The slug of the dataset that the feature is from is stored in the properties of the feature with the key `dataset`.
