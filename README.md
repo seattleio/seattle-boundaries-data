@@ -82,7 +82,7 @@ dat clone dat://a20663417ea679e7b9230ffba08f1da65072d5790112e20c3bb8bb24df46e25a
 The desktop app lets you download and share files via Dat.
 
 - [Install the Dat Desktop app](https://datproject.org/install)
-- Import this dat dat://a20663417ea679e7b9230ffba08f1da65072d5790112e20c3bb8bb24df46e25a
+- Import this dat: `dat://a20663417ea679e7b9230ffba08f1da65072d5790112e20c3bb8bb24df46e25a`
 - View the downloaded files
 
 **Beaker Browser**
