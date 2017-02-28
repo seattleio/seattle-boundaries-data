@@ -1,6 +1,6 @@
 # seattle-boundaries-data
 
-GeoJSON for various boundaries within Seattle
+GeoJSON for various boundaries related to Seattle.
 
 ## Boundaries
 - [City limits](/data/city-limits.geojson)
@@ -26,15 +26,33 @@ GeoJSON for various boundaries within Seattle
 - [ZIP codes](/data/zip-codes.geojson)
 - [Zoning](/data/zoning.geojson)
 
-## Install
+## How to access the data
 
-To install the Node.js module:
+### Web map
+
+At [boundaries.seattle.io](https://boundaries.seattle.io) you can view each boundary on a map by entering a location.
+
+### JSON API
+
+Request the data via a JSON API by using [boundaries-api.seattle.io](https://boundaries-api.seattle.io). 
+
+Example request:
+
+```
+GET https://boundaries-api.seattle.io/boundaries?long=-122.345002&lat=47.667044
+```
+
+### npm
+
+This data is available via [npm](https://npmjs.com/seattle-boundaries-data) to use as a JavaScript/Node.js module.
+
+**Install:**
 
 ```
 npm install --save seattle-boundaries-data
 ```
 
-## Usage
+**Usage:**
 
 ```
 var boundaries = require('seattle-boundaries-data')
@@ -48,15 +66,16 @@ var matches = boundaries({
 
 Returns a `FeatureCollection` where all the features are a match for the point. The slug of the dataset that the feature is from is stored in the properties of the feature with the key `dataset`.
 
+### Dat
+
+> tbd
+
 ## Contributing
 - Fork the repo
 - Create a branch for your changes
 - Submit pull request
 - When possible, we attempt to pull data from [City of Seattle](https://data.seattle.gov/) using Node.js but we are open to other solutions
   as well.
-  
-## See also
-- [boundaries.seattle.io](https://github.com/seattleio/boundaries.seattle.io) – an api server for the boundaries.
 
 ## TODO
 
