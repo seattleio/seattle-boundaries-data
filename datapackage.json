@@ -121,10 +121,10 @@
     }
   ],
   "name": "seattle-boundaries-data",
-  "title": "",
+  "title": "seattle-boundaries-data",
   "description": "GeoJSON for various boundaries within Seattle",
-  "homepage": "",
-  "version": "0.1.0",
+  "homepage": "http://github.com/seattleio/boundaries-data",
+  "version": "5.0.1",
   "license": "ODC-PDDL-1.0",
   "repository": "git://github.com/seattleio/boundaries-data.git"
 }
