@@ -1,0 +1,130 @@
+{
+  "resources": [
+    {
+      "name": "census-tracts",
+      "path": "data/census-tracts.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 325506
+    },
+    {
+      "name": "city-council-districts",
+      "path": "data/city-council-districts.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 90188
+    },
+    {
+      "name": "city-limits",
+      "path": "data/city-limits.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 437969
+    },
+    {
+      "name": "neighborhoods",
+      "path": "data/neighborhoods.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 12494190
+    },
+    {
+      "name": "ruv",
+      "path": "data/ruv.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 26691
+    },
+    {
+      "name": "seattle-congress",
+      "path": "data/seattle-congress.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 1735
+    },
+    {
+      "name": "seattle-parks-osm",
+      "path": "data/seattle-parks-osm.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 416219
+    },
+    {
+      "name": "seattle-waleg",
+      "path": "data/seattle-waleg.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 265974
+    },
+    {
+      "name": "spd-beats",
+      "path": "data/spd-beats.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 543697
+    },
+    {
+      "name": "spd-mcpp-areas",
+      "path": "data/spd-mcpp-areas.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 796038
+    },
+    {
+      "name": "spd-precincts",
+      "path": "data/spd-precincts.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 120672
+    },
+    {
+      "name": "sps_attendance_area_es",
+      "path": "data/sps_attendance_area_ES.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 492157
+    },
+    {
+      "name": "sps_attendance_area_hs",
+      "path": "data/sps_attendance_area_HS.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 119667
+    },
+    {
+      "name": "sps_attendance_area_ms",
+      "path": "data/sps_attendance_area_MS.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 204648
+    },
+    {
+      "name": "sps_school_site_2015_2016",
+      "path": "data/sps_school_site_2015_2016.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 19006
+    },
+    {
+      "name": "zip-codes",
+      "path": "data/zip-codes.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 49044
+    },
+    {
+      "name": "zoning",
+      "path": "data/zoning.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 8453656
+    }
+  ],
+  "name": "seattle-boundaries-data",
+  "title": "",
+  "description": "GeoJSON for various boundaries within Seattle",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "ODC-PDDL-1.0",
+  "repository": "git://github.com/seattleio/boundaries-data.git"
+}

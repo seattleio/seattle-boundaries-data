@@ -1,9 +1,9 @@
 {
-  "name": "seattle-boundaries",
+  "name": "seattle-boundaries-data",
   "description": "geojson boundaries for seattle",
   "version": "5.0.0",
   "repository": {
-    "url": "git://github.com/sethvincent/seattle-boundaries.git"
+    "url": "git://github.com/seattleio/seattle-boundaries-data.git"
   },
   "main": "index.js",
   "scripts": {

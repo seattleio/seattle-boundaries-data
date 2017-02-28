@@ -1,4 +1,4 @@
-# Seattle boundaries
+# seattle-boundaries-data
 
 GeoJSON for various boundaries within Seattle
 
@@ -31,13 +31,13 @@ GeoJSON for various boundaries within Seattle
 To install the Node.js module:
 
 ```
-npm install --save seattle-boundaries
+npm install --save seattle-boundaries-data
 ```
 
 ## Usage
 
 ```
-var boundaries = require('seattle-boundaries')
+var boundaries = require('seattle-boundaries-data')
 
 var matches = boundaries({
   long: -122.345002,
