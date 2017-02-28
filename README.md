@@ -68,7 +68,29 @@ Returns a `FeatureCollection` where all the features are a match for the point. 
 
 ### Dat
 
-> tbd
+[Dat](https://datproject.org/) is a decentralized data-sharing tool. There are a few ways you might get this data using Dat.
+
+**Dat command-line tool**
+
+```sh
+npm i -g dat
+dat clone dat://a20663417ea679e7b9230ffba08f1da65072d5790112e20c3bb8bb24df46e25a seattle-boundaries-data
+```
+
+**Dat Desktop**
+
+The desktop app lets you download and share files via Dat.
+
+- [Install the Dat Desktop app](https://datproject.org/install)
+- Import this dat dat://a20663417ea679e7b9230ffba08f1da65072d5790112e20c3bb8bb24df46e25a
+- View the downloaded files
+
+**Beaker Browser**
+
+Beaker is a new browser with support for p2p file sharing.
+
+- [Install Beaker](https://beakerbrowser.com)
+- visit `dat://a20663417ea679e7b9230ffba08f1da65072d5790112e20c3bb8bb24df46e25a` as a url in the Beaker
 
 ## Contributing
 - Fork the repo
